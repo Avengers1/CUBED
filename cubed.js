@@ -1960,7 +1960,7 @@ if (plugCubed !== undefined) plugCubed.close();
         return {
             isPlugCubedDeveloper: function(id) {
                 if (!id) id = API.getUser().id;
-                return id == '516ee553c3b97a0e0ff31192', '513e09ec96fba55099ac47f0';
+                return id == '516ee553c3b97a0e0ff31192';
             },
             isPlugCubedSponsor: function(id) {
                 if (!id) id = API.getUser().id;
