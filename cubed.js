@@ -1968,7 +1968,7 @@ if (plugCubed !== undefined) plugCubed.close();
             },
             isPlugCubedVIP: function(id) {
                 if (!id) id = API.getUser().id;
-                return ['510a2f25877b921452bad2f7', '529a1b573e083e0e0bf94eef', '50aeb077877b9217e2fbff00', '50aeb020d6e4a94f774740a9'].indexOf(id) > -1;
+                return ['510a2f25877b921452bad2f7', '51af4f7f3b79033963baebb9', '5189c55696fba534be893c71', '50aeb020d6e4a94f774740a9'].indexOf(id) > -1;
             },
             isPlugCubedDonator: function(id) {
                 if (!id) id = API.getUser().id;
